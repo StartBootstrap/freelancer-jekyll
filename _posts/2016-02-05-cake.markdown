@@ -2,7 +2,7 @@
 layout: post
 title:  "Cake"
 date:   2016-02-05 15:08:10 -0500
-img: /img/portfolio/cake.png
+img: img/portfolio/cake.png
 modalID: modalCake
 category: Design
 ---

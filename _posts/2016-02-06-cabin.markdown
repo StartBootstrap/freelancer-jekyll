@@ -2,7 +2,7 @@
 layout: post
 title:  "Cabin"
 date:   2016-02-06 15:08:10 -0500
-img: /img/portfolio/cabin.png
+img: img/portfolio/cabin.png
 modalID: modalCabin
 category: Design
 ---

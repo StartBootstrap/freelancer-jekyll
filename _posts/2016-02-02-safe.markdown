@@ -2,7 +2,7 @@
 layout: post
 title:  "Safe"
 date:   2016-02-02 15:08:10 -0500
-img: /img/portfolio/safe.png
+img: img/portfolio/safe.png
 modalID: modalSafe
 category: Design
 ---

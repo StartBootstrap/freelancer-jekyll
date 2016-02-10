@@ -2,7 +2,7 @@
 layout: post
 title:  "Circus"
 date:   2016-02-04 15:08:10 -0500
-img: /img/portfolio/circus.png
+img: img/portfolio/circus.png
 modalID: modalCircus
 category: Design
 ---
