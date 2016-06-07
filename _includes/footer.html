@@ -31,6 +31,11 @@
                             <a href="https://www.instagram.com/{{ site.instagram_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
                         </li>
                         {% endif %}
+                        {% if site.stackoverflow_url %}
+                        <li>
+							<a href="{{ site.stackoverflow_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                        </li>
+                        {% endif %}
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
