@@ -26,6 +26,31 @@
                             <a href="https://github.com/{{ site.github_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                         </li>
                         {% endif %}
+                        {% if site.instagram_username %}
+                        <li>
+                            <a href="https://www.instagram.com/{{ site.instagram_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.stackoverflow_url %}
+                        <li>
+							<a href="{{ site.stackoverflow_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.googleplus_username %}
+                        <li>
+							<a href="https://plus.google.com/+{{ site.googleplus_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.skype_username %}
+                        <li>
+							<a href="skype:{{ site.skype_username }}?call" class="btn-social btn-outline"><i class="fa fa-fw fa-skype"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.linkedin_url %}
+                        <li>
+							<a href="{{ site.linkedin_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        {% endif %}
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
