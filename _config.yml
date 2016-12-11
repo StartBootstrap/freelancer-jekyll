@@ -6,28 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Start Bootstrap
-email: your-email@domain.com
+title: Stefan Hoth
+email: no-reply@example.org
 description: > # this means to ignore newlines until "baseurl:"
-  Web Developer - Graphic Artist - User Experience Designer
-baseurl: "/startbootstrap-freelancer-jekyll" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+  A developer gone product person, still a community builder
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://stefanhoth.github.io" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
-twitter_username: SBootstrap
-github_username:  BlackrockDigital
-facebook_username: StartBootstrap
+twitter_username: stefanhoth
+github_username:  stefanhoth
+#facebook_username: StartBootstrap
 #instagram_username: beyonce
-#stackoverflow_url: https://
-#googleplus_username: BobMarley
+stackoverflow_url: https://stackoverflow.com/users/409349/stefan-hoth
+googleplus_username: +StefanHoth
 #skype_username: echo123
-#linkedin_url: https://
-
-# Address information
-address_street: 3034 Melrose Place
-address_city: Beverly Hills
-address_state: CA
-address_zip: 90201
+linkedin_url: http://de.linkedin.com/in/stefanhoth
 
 # Build settings
 markdown: kramdown
