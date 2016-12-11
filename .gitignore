@@ -1,6 +1,7 @@
 
 # generated
 _site/**
+.jekyll-metadata
 
 # IDE/editor
 *.sublime-project
