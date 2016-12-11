@@ -1,0 +1,7 @@
+
+# generated
+_site/**
+
+# IDE/editor
+*.sublime-project
+*.sublime-workspace
