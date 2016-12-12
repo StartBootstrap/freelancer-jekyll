@@ -9,7 +9,7 @@
 title: Stefan Hoth
 email: no-reply@example.org
 description: > # this means to ignore newlines until "baseurl:"
-  A developer gone product person, still a community builder
+  A developer gone product person with passion community building
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stefanhoth.github.io" # the base hostname & protocol for your site
 
