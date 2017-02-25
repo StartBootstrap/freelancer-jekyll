@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  "TODO"
-date:   2016-12-11 23:59:59 +0100
-img: img/portfolio/game.png
-modalID: modalGame
-category: TODO
+title:  "novoda"
+date:   2017-01-01 23:59:59 +0100
+img: img/portfolio/novoda.png
+modalID: novoda
+category: company
 ---
 
-This is were you discover that I stopped creating content at some point. Sorry.
+Novoda crafts successful Android and iOS software that delights your customers and outperforms your competition.
 
+I'm heading the German Operations for novoda. Talk to me if your product needs to have the right impact on mobile platforms.
+
+[Visit the website →](https://www.novoda.com)
