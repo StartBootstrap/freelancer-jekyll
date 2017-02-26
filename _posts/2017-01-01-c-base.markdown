@@ -1,11 +1,23 @@
 ---
 layout: post
-title:  "TODO"
-date:   2016-12-11 23:59:59 +0100
-img: img/portfolio/game.png
-modalID: modalGame
-category: TODO
+title:  "c-base space station"
+date:   2017-01-01 23:59:59 +0100
+img: img/portfolio/c-base.png
+modalID: c-base
+category: community
 ---
 
-This is were you discover that I stopped creating content at some point. Sorry.
+[wikipedia describes:](https://en.wikipedia.org/wiki/C-base)
+> Seventeen people founded c-base e. V. in the autumn of 1995. In the years 2002 and 2003 the BerlinBackBone project was launched to make available and promote free public access to the internet via wireless community networks.
 
+> c-base is recognized as one of the first hackerspaces in the world. It, along with Metalab, directly influenced the creation of hackerspaces in the US.
+
+Since then c-base has become a melting pot for musicians, activists, nerds, geeks, programmers, gamers, technologists and weekend party folks. With it's special story and unique assembly of people it's certainly not an everyday experience.
+
+Here's a video that captures c-base quite well.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NDC7tZv9E6M" frameborder="0" allowfullscreen></iframe>
+
+
+
+[Visit c-base's website →](https://c-base.org)
