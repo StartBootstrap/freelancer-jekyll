@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Berlin Hack and Tell"
-date:   2017-01-01 23:59:59 +0100
+date:   2017-01-01 10:59:59 +0100
 img: img/portfolio/berlin_hack_and_tell.png
 modalID: bhnt
 category: community

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "novoda"
-date:   2017-01-01 23:59:59 +0100
+date:   2017-01-01 20:59:59 +0100
 img: img/portfolio/novoda.png
 modalID: novoda
 category: company
