@@ -9,6 +9,12 @@ To begin using this template, choose one of the following options to get started
 * Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
 * Fork the repo
 
+## Setting up the contact form for static pages
+
+In order to get the form working for static pages change the action attribute of the form tag `action="https://formspree.io/your-mail@mail.com"`.
+
+All the contact information entered will be forwarded to your mail.
+
 ## Bugs and Issues
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer-jekyll/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
