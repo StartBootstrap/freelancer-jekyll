@@ -9,17 +9,17 @@
 title: Stefan Hoth
 email: no-reply@example.org
 description: > # this means to ignore newlines until "baseurl:"
-  A developer gone product person with passion for building communities
+  A developer gone servant leader while keeping the passion for building communities
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://stefanhoth.github.io" # the base hostname & protocol for your site
+url: "http://stefanhoth.de" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
 twitter_username: stefanhoth
 github_username:  stefanhoth
 #facebook_username: StartBootstrap
-#instagram_username: beyonce
+instagram_username: stefanhoth
 stackoverflow_url: https://stackoverflow.com/users/409349/stefan-hoth
-googleplus_username: StefanHoth
+#googleplus_username: StefanHoth
 #skype_username: echo123
 linkedin_url: http://de.linkedin.com/in/stefanhoth
 
