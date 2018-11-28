@@ -1,0 +1,13 @@
+#Redirect config provided/used for netlify
+
+# Redirect domain aliases to primary domain
+https://stefanhoth.com/* https://stefanhoth.de/:splat 301!
+https://www.stefanhoth.com/* https://stefanhoth.de/:splat 301!
+https://stefan-hoth.de/* https://stefanhoth.de/:splat 301!
+https://www.stefan-hoth.de/* https://stefanhoth.de/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://competent-archimedes-262389.netlify.com/* https://stefanhoth.de/:splat 301!
+
+# Redirect from github user page to primary domain
+https://stefanhoth.github.io/* https://stefanhoth.de/:splat 301!
