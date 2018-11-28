@@ -25,3 +25,5 @@ linkedin_url: http://de.linkedin.com/in/stefanhoth
 
 # Build settings
 markdown: kramdown
+include:
+  - _redirects
