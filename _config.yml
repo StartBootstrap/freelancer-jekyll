@@ -11,7 +11,7 @@ email: no-reply@example.org
 description: > # this means to ignore newlines until "baseurl:"
   A developer gone servant leader while keeping the passion for building communities
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://stefanhoth.de" # the base hostname & protocol for your site
+url: "https://stefanhoth.com" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
 twitter_username: stefanhoth
