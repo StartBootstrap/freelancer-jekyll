@@ -15,11 +15,11 @@ url: "https://stefanhoth.com" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
 twitter_username: stefanhoth
-github_username:  stefanhoth
+github_username: stefanhoth
 #facebook_username: StartBootstrap
-instagram_username: stefanhoth
+#instagram_username: StartBootstrap
 stackoverflow_url: https://stackoverflow.com/users/409349/stefan-hoth
-#googleplus_username: StefanHoth
+#googleplus_username: StartBootstrap
 #skype_username: echo123
 linkedin_url: https://www.linkedin.com/in/stefanhoth
 
