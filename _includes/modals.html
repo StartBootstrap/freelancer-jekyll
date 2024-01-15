@@ -18,6 +18,8 @@
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
+            {% else %}
+            {{ post.content }}
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}
