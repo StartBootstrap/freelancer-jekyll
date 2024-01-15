@@ -1,62 +1,35 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="keywords" content="{{ site.keywords }}" />
+  {% if site.meta_author %}
+  <meta name="author" content="{{ site.meta_author }}">{% endif %}
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
 
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+  <link rel="stylesheet" href="{{ " style.css" }}">
 
-    <!-- ****** faviconit.com favicons ****** -->
-    <link rel="shortcut icon" href="img/favs/favicon.ico">
-    <link rel="icon" sizes="16x16 32x32 64x64" href="img/favs/favicon.ico">
-    <link rel="icon" type="image/png" sizes="196x196" href="img/favs/favicon-192.png">
-    <link rel="icon" type="image/png" sizes="160x160" href="img/favs/favicon-160.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favs/favicon-96.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="img/favs/favicon-64.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favs/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favs/favicon-16.png">
-    <link rel="apple-touch-icon" href="img/favs/favicon-57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favs/favicon-114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favs/favicon-72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favs/favicon-144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favs/favicon-60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favs/favicon-120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favs/favicon-76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favs/favicon-152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favs/favicon-180.png">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="img/favs/favicon-144.png">
-    <meta name="msapplication-config" content="img/favs/browserconfig.xml">
-    <!-- ****** faviconit.com favicons ****** -->
+  <!-- Google verification -->
+  {% if site.google_verify %}
+  <meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <!-- Bing Verification -->
+  {% if site.bing_verify %}
+  <meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="{{ " css/font-awesome/css/all.min.css" }}">
+  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- Freelancer Theme CSS -->
-    <link rel="stylesheet" href="/css/freelancer.min.css">
-
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}">
-
-    <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5WDWMJS');</script>
-    <!-- End Google Tag Manager -->
 </head>

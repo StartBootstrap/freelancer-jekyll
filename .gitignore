@@ -1,9 +1,8 @@
+.DS_Store
 
-# generated
-_site/**
-.jekyll-metadata
+_site
+.sass-cache
 .jekyll-cache
+.jekyll-metadata
 
-# IDE/editor
-*.sublime-project
-*.sublime-workspace
+Gemfile.lock

@@ -1,41 +1,70 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Stefan Hoth
-email: no-reply@example.org
-description: > # this means to ignore newlines until "baseurl:"
-  builds successful and happy engineering teams with a focus on psychological safety and developer productivity
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://stefanhoth.com" # the base hostname & protocol for your site
+email: your-email@domain.com
+url: https://stefanhoth.com
+description: "Stefan builds successful and happy engineering teams with a focus on psychological safety and developer productivity"
+keywords: "Engineering Manager, Engineering Leader, Director of Engineering, Software Engineering"
+skills: "builds successful and happy engineering teams with a focus on psychological safety and developer productivity"
+meta_author: Hoth Stefan
 
-# Social media profiles - feel free to add more here
-#twitter_username: stefanhoth
-github_username: stefanhoth
-#facebook_username: StartBootstrap
-#instagram_username: StartBootstrap
-stackoverflow_url: https://stackoverflow.com/users/409349/stefan-hoth
-#googleplus_username: StartBootstrap
-#skype_username: echo123
-linkedin_url: https://www.linkedin.com/in/stefanhoth
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+#disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Stefan Hoth
+  #location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/stefanhoth
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/409349/stefan-hoth
+  - title: github
+    url: http://github.com/stefanhoth
+
+# Postal address (add as many lines as necessary)
+#address:
+#  - line: 3481 Melrose Place
+#  - line: Beverly Hills, CA 90210
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
+
 include:
   - _redirects
-
-# Github pages defaults
-lsi: false
-safe: true
-#source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
