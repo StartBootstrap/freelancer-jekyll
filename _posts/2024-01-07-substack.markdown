@@ -2,8 +2,8 @@
 layout: post
 title: "On Engineering Leadership"
 date: 2024-01-07 23:59:59 +0100
-img: img/portfolio/on_engineering_leadership-substack.jpg
-modalID: substack
+img: on_engineering_leadership-substack.jpg
+modal-id: substack
 category: community
 ---
 
@@ -33,5 +33,3 @@ I have a few topics that are near and dear to my heart, some already published e
 As always, feedback in any form is much appreciated.
 
 Thanks for reading Stefan Hoth on Engineering Leadership! [Subscribe for free to receive new posts and support my writing here →](https://stefanhoth.substack.com/)
-
-
