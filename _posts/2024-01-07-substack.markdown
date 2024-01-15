@@ -1,0 +1,37 @@
+---
+layout: post
+title: "On Engineering Leadership"
+date: 2024-01-07 23:59:59 +0100
+img: img/portfolio/on_engineering_leadership-substack.jpg
+modalID: substack
+category: community
+---
+
+## Writing beind closed doors
+
+<hr class="star-primary">
+
+If you are an Engineering leader like me there’s a good chance a significant chunk of your week is dedicated to writing: Proposals & RFCs, reviews & evaluations, communication all across the org chart, planning & alignments, etc. We are busy explaining our reasoning, convicing others or documenting certain expectations.
+
+Despite this huge time investment most of our output stays behind corporate firewalls, inaccessible for the wider community. And, in case of switching jobs, even inaccessible to yourself. I’ve experienced this and it sucks.
+
+The solution is straight-forward for anyone in tech:
+
+<i>Just start a blog!</i>
+
+However, you probably know it’s not that easy. You’re faced with an endless list of tools and platforms to chose from, each demanding another set of decisions - and a lot of time. Something that’s rare to find in a busy week.
+<br><br><br>
+
+## A dedicated space for writing in public
+
+<hr class="star-primary">
+
+After seeing substack grow and attract great writers like [Gergely Orosz](https://substack.com/@pragmaticengineer) it’s worth a shot to skip a lot of open questions and reduce my own friction for writing more in public. This brings us here.
+
+I have a few topics that are near and dear to my heart, some already published elsewhere, some are still in my head. I’ll aim to both republish existing once here as well as adding new thoughts on a very irregular schedule.
+
+As always, feedback in any form is much appreciated.
+
+Thanks for reading Stefan Hoth on Engineering Leadership! [Subscribe for free to receive new posts and support my writing here →](https://stefanhoth.substack.com/)
+
+
