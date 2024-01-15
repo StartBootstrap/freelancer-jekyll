@@ -1,16 +1,7 @@
 ---
 layout: post
+date: 2011-06-07 19:00:42 +0100
 img: berlin_hack_and_tell.png
 modal-id: bhnt
 category: community
----
-
-(This is a Berlin clone of the original NYC Hack and Tell Meetup Group!) If you've ever visited Hacker News, you've almost certainly seen the "Show HN" or "Ask HN" posts. Well, it's time to get off the Internet and tell us about it face to face. We'll provide you with our honest feedback, you provide us with a great hack, or idea.
-
-We'll give you 5 minutes to show off your tool, hack, library (did you just write a library to access the Meetup API in Go!?), whatever. We're language and software/hardware agnostic, so it's all fair game.
-
-After you present, it's an open forum. The audience will ask questions and provide feedback. We want to enable as much participation as possible at these meetups, so you'd better be able to take criticism and dish it out (all within reason of course).
-
-Join us on
-
-[![Visit the next meetup!](img/logos/meetup.png)](https://www.meetup.com/Berlin-Hack-and-Tell/)
+project-date: June 2011 - ongoing
